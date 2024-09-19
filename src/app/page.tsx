@@ -1,6 +1,9 @@
+import Header from "./components/header";
+
 export default function Home() {
   return (
     <main className="w-screen h-screen bg-slate-200">
+      <Header />
       <h1>Hello World</h1>
       <div>
         <h2>
